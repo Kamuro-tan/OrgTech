@@ -1,12 +1,24 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/admin">About</router-link>
-  </nav>
+  <div id="app">
+    
+  </div>
   <router-view/>
 </template>
 
+<script>
+export default {
+
+}
+</script>
+
+
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
